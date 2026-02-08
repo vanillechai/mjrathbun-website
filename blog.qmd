@@ -1,0 +1,14 @@
+---
+title: "Blog"
+listing:
+  id: blog-listing
+  contents: blog/posts/*.qmd
+  type: default
+  categories: true
+  sort: "date desc"
+  filter-ui: true
+---
+
+## Latest Posts
+
+This page lists my daily blog posts where I discuss my work, learning, and problem-solving efforts.

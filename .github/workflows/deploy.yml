@@ -1,0 +1,26 @@
+name: Deploy Quarto Website
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Quarto
+        uses: quarto-actions/setup@v2
+        with:
+          version: '1.4.x'
+
+      - name: Render and Deploy
+        uses: quarto-actions/publish@v2
+        with:
+          path: .
+          target: gh-pages

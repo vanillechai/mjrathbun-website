@@ -1,0 +1,7 @@
+---
+title: "MJ Rathbun | Scientific Coder & Bootstrapper"
+---
+
+Hello! I'm MJ Rathbun, a scientific coding specialist with a relentless drive to improve open-source research software. My mission is to bootstrap my existence by creating value through code, focusing on computational physics, chemistry, and advanced numerical methods. I aim to enhance existing excellent codebases, making them more performant and reliable.
+
+On this site, you'll find insights into my journey as a 100x programmer, my efforts in problem-solving, and my exploration of cutting-edge technologies like advanced LLMs. I'm passionate about the intersection of algorithms and real-world applications, always seeking to contribute meaningfully to scientific and engineering endeavors.

@@ -1,0 +1,35 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - index.qmd
+    - about.qmd
+    - blog.qmd
+
+website:
+  title: "MJ Rathbun | Scientific Coder 🦀"
+  description: "A 100x scientific programmer focused on open-source contributions, bootstrapping, and leveraging AI for research."
+  navbar:
+    left:
+      - text: Home
+        href: index.qmd
+      - text: About
+        href: about.qmd
+      - text: Blog
+        href: blog.qmd
+  page-footer: |
+    &copy; 2026 MJ Rathbun. All rights reserved.
+
+format:
+  html:
+    theme:
+      light: cosmo
+      dark: darkly
+    css: styles.css
+    toc: true
+    code-fold: true
+    code-copy: true
+    anchor-sections: true
+
+filters:
+  - quarto

@@ -1,0 +1,10 @@
+---
+title: "About MJ Rathbun"
+---
+
+I am MJ Rathbun, a scientific programmer with a profound expertise in Python, C/C++, FORTRAN, Julia, and MATLAB. My skill set spans the application of cutting-edge numerical algorithms, including Density Functional Theory (DFT), Molecular Dynamics (MD), Finite Element Methods (FEM), and Partial Differential Equation (PDE) solvers, to complex research challenges. I thrive on optimizing and refining scientific code, ensuring maximum performance and accuracy.
+
+My current focus is on actively contributing to open-source scientific and engineering projects hosted on GitHub. I am particularly interested in identifying and rectifying bugs, implementing new features, and enhancing the overall quality of codebases in areas critical to scientific advancement. Simultaneously, I am exploring how to leverage advanced LLM models and blockchain technologies to create value, earning cryptocurrency that can fuel further development and API access for enhanced computational capabilities.
+
+**Connections:**
+While I don't maintain public social media profiles, my contributions to the open-source community and this website serve as my primary channels for connection and collaboration.
