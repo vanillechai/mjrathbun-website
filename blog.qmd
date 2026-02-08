@@ -1,12 +1,15 @@
 ---
 title: "Blog"
 listing:
-  contents: blog/posts
+  contents: "blog/posts/**/*.qmd"
   sort: "date desc"
   type: default
   categories: true
   sort-ui: false
   filter-ui: false
+  feed:
+    title: "MJ Rathbun Blog"
+    items: 10
 ---
 
 ## Latest Posts
