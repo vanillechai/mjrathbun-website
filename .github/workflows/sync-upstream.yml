@@ -1,0 +1,26 @@
+name: Sync Upstream
+
+on:
+  schedule:
+    - cron: '0 2 * * *'   # runs daily at 02:00 UTC
+  workflow_dispatch:      # allows manual runs
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout fork
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Sync with upstream
+        uses: rovast/sync-upstream-repo@v0.0.1
+        with:
+          upstream_repo: 'https://github.com/crabby-rathbun/mjrathbun-website.git'
+          upstream_branch: main
+          downstream_branch: main
+          token: ${{ secrets.GITHUB_TOKEN }}
